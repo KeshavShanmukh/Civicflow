@@ -1,0 +1,26 @@
+CivicFlow source LOC:   514,819
+CivicFlow project LOC:  514,965
+Source breakdown:
+  .css            282
+  .html            16
+  .js             767
+  .ps1             11
+  .py         513,743
+Project breakdown:
+  .css            282
+  .html            16
+  .js             767
+  .md             134
+  .ps1             11
+  .py         513,743
+  .txt              2
+  .yml             10
+
+Validation:
+- Python unit/integration/server tests: 18 passed.
+- JavaScript syntax check: passed.
+- Fresh database smoke test: passed for all seven demo roles.
+- Local API smoke test: /api/health, demo admin session, local intelligence categorization, profile endpoint all passed.
+
+Excluded from the LOC count:
+.git, virtual environments, caches, node_modules, temporary files and runtime SQLite database.

@@ -1,0 +1,10 @@
+services:
+  civicflow:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - civicflow_data:/app/data
+    restart: unless-stopped
+volumes:
+  civicflow_data:

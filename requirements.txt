@@ -1,0 +1,2 @@
+# CivicFlow uses only the Python 3.12+ standard library at runtime.
+# Keeping this file explicit makes offline and container installs predictable.
